@@ -1,0 +1,18 @@
+package multithreading;
+class t1 extends Thread
+{  public void d()
+	{
+	System.out.println("no");
+	}
+}
+public class emptythread {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+t1 t=new t1();
+t.run();
+t.start();
+System.out.println("no second thread is excuted");
+	}
+
+}

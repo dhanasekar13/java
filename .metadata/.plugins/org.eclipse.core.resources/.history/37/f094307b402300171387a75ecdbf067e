@@ -1,0 +1,19 @@
+package array;
+import java.util.Scanner;
+public class sample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        int[] a;
+           System.out.println("enter the how many value you want to tyoe");
+           Scanner si=new Scanner(System.in);
+           int o=si.nextInt();
+           System.out.println("enter the value");
+                    for (int r=0;r<o;r++)
+           {
+        	   sample p=new sample(); 
+        	    p.a[r]=si.nextInt();
+           }
+	}
+
+}

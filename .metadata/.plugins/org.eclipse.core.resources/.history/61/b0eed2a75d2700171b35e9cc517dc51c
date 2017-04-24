@@ -1,0 +1,53 @@
+package task1;//AutoCloseable
+import java.security.cert.CollectionCertStoreParameters;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.*;
+class db1 {
+	TreeSet<String> phoneno=new TreeSet<>();
+	Scanner na=new Scanner(System.in);
+	db1()
+	{
+		System.out.println("Enter the Phone number-");
+		String mam=na.nextLine();
+			phoneno.add(mam);
+			}
+	db1(int a)
+	{
+		System.out.println(phoneno);
+	}
+	}
+	
+class db2
+{ Scanner na=new Scanner(System.in);
+Vector name=new Vector();
+	 db2()
+	{
+		
+			LinkedList emailid=new LinkedList();
+			System.out.println("Enter the name");
+			String str1=na.nextLine();
+			name.add(str1);
+     }
+	 db2(int a)
+		{
+			System.out.println(name);
+		}
+}
+class db3
+{
+	 Scanner na=new Scanner(System.in);
+	 Vector Emailname=new Vector();
+	 db3()
+	{
+						System.out.println("Enter the email id--");
+			String str=na.nextLine();
+			Emailname.add(str);
+     }
+	 db3(int a)
+		{
+			System.out.println(Emailname);
+		}
+}

@@ -1,0 +1,27 @@
+// To start the userdefined thread  --main method is nesecarry
+// To start the thread start() must be calledd from the main method
+
+package multithreading;
+
+class userthread extends Thread
+{
+public void run()
+{for(int j=0;j<10;j++)
+	System.out.println("dhanasekar");
+	
+}
+}
+public class multithread
+{
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//user thread start code
+	userthread  t=new userthread ();
+		t.start();
+		//logic of main thread
+		for(int i=0;i<10;i++)
+		System.out.println("sekar");
+		
+	}
+
+}

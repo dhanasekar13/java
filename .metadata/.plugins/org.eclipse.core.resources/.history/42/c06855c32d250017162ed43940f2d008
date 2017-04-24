@@ -1,0 +1,27 @@
+package task1;
+
+import java.util.Scanner;
+
+public class fronts1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner s=new Scanner(System.in);
+             System.out.println("what operation do you want to perform");
+             System.out.println("1.create 2.update 3.view");
+             int a=s.nextInt();
+             switch(a)
+             {
+             case 1:
+            	 
+            	 break;
+             case 2:
+            	 break;
+             case 3:
+            	 break;
+            	 default :
+            		 System.out.println("wrong operation ");
+             }
+             }
+
+}

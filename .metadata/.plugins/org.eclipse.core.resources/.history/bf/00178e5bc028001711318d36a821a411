@@ -1,0 +1,28 @@
+package multithreading;
+class join1 extends Thread
+{
+	public void run()
+	{
+		System.out.println(Thread.currentThread().getName());
+	}
+}
+public class join_thread {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+join1 i=new join1();
+join1 j=new join1();
+i.start();
+j.start();
+try
+{
+i.join();
+}
+catch(InterruptedException e)
+{
+	System.out.println("dont worry");
+}
+
+	}
+
+}

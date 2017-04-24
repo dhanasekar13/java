@@ -1,0 +1,22 @@
+//object array
+
+
+package array;
+class f
+{
+ public static void main(String[] args) {
+	System.out.println("dhanasekar");
+}
+}
+public class object_array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+f[] i=new f[4];
+for (f d:i)
+{
+	System.out.println(d);
+}
+	}
+
+}

@@ -1,0 +1,19 @@
+package inner_classes;
+
+public class inner_method_outer_var {
+int r=8;
+static int e=4;
+class a
+{
+	public void aa()
+	{
+		System.out.println(r+e);
+	}
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+new inner_method_outer_var().new a().aa();
+
+	}
+
+}

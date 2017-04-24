@@ -1,0 +1,27 @@
+package array;
+class s
+{
+	int i;
+	String j;
+	s(int i,String j)
+	{
+		this.i=i;
+		this.j=j;
+	}
+}
+public class null_pointer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+s[] i=new s[9];
+s j=new s(2,"dhaa");
+s k=new s(3,"sekar");
+i[0]=j;
+i[1]=k;
+for (s b:i)
+{
+	System.out.println(b.i+""+b.j);
+}
+	}
+
+}

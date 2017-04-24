@@ -1,0 +1,10 @@
+package inner_classes;
+
+public class inner_var_same {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

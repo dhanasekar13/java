@@ -1,0 +1,11 @@
+package inner_classes;
+
+public class sample {
+class a{
+	int a=9;
+ 
+	}
+public static void main(String args[]) {
+	System.out.println(a);
+	}}
+

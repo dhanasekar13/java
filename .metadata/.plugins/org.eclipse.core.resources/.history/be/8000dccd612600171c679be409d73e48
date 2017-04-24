@@ -1,0 +1,60 @@
+// user defined sorting order-tree set
+//
+package collection.src.array_list;
+
+import java.util.Comparator;
+import java.util.TreeSet;
+class  mypre implements Comparator
+{
+	public int compare(Object obj5,Object obj6)
+	{Integer i1=(Integer)obj5;
+	Integer i2=(Integer)obj6;
+		if(i1<i2)
+		{
+			return -1;
+		}
+		else if(i1>i2)
+		{
+			return 1;
+		}
+		else
+		return 0;
+	}
+}
+public class treeset_comparator implements Comparator
+{
+	public int compare(Object obj5,Object obj6)
+	{Integer i1=(Integer)obj5;
+	Integer i2=(Integer)obj6;
+		if(i1<i2)
+		{
+			return -1;
+		}
+		else if(i1>i2)
+		{
+			return 1;
+		}
+		else
+		return 0;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+TreeSet<Integer> obj1=new TreeSet<>();
+TreeSet<Integer> obj2=new TreeSet<>();
+obj1.add(50);
+obj1.add(51);
+obj1.add(52);
+obj1.add(53);
+obj1.add(54);
+obj1.add(55);
+obj1.add(600);
+obj1.add(602);
+obj1.add(603);
+obj1.add(605);
+//obj2.addAll(obj1);
+System.out.println(obj1);
+}
+
+}

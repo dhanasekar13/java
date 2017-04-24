@@ -1,0 +1,45 @@
+package task;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class duplicate1 {
+
+	public static void main(String[] args) throws Exception{
+		
+		Scanner su=new Scanner(System.in);
+		System.out.println("enter the string ");
+		String r=su.nextLine();
+		int hi=0;
+		int ci=r.length();
+		char[] d=new char[ci];
+		
+		ArrayList<Character> er=new ArrayList<Character>(ci);
+		ArrayList<Character> eri=new ArrayList<Character>(ci);
+	
+		 for (int fi=0;fi<=ci-1;fi++)  
+		{
+			d[fi]=r.charAt(fi);
+			er.add(r.charAt(fi)); 
+		}
+		 for (int fi=0;fi<=ci-1;fi++)  
+		 {
+			 eri.add(d[fi]);
+			 for(int y=1;y<ci-1;y++)
+			 {
+				 if(er.get(fi)==er.get(y))
+				 {
+					 hi++;
+				 }
+				 else
+				 {
+					continue; 
+				 }
+			 }
+		System.out.println("string element "+er.get(0)+"  has "+hi+"  of repeating element  ");
+		er.removeAll(eri);hi=0;int u=0;eri.clear();
+		 }
+		}
+	
+	  	
+}

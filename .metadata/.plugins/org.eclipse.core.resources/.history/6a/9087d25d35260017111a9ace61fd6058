@@ -1,0 +1,16 @@
+package task1;
+import java.security.cert.CollectionCertStoreParameters;
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class db {
+	ArrayList<Integer> phoneno=new ArrayList<>();
+	ArrayList<String> name=new ArrayList<>();
+	ArrayList<String> emailid=new ArrayList<>();
+	db(int ph,String nam,String mail)
+	{
+		phoneno.add(ph);
+		name.add(nam);
+		emailid.add(mail);
+	}
+	}

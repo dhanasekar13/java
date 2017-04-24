@@ -1,0 +1,17 @@
+package multithreading;
+
+public class multithread extends Thread
+{
+public void run()
+{
+	System.out.println("dhanasekar");
+	
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		multithread  t=new multithread ();
+		t.start();
+		
+	}
+
+}

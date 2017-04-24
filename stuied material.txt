@@ -1,0 +1,10 @@
+things which i had studied
+-environmental variables
+-package and javac 
+-basic info about how java is compiled
+-variables(instance,static ,local)
+-constructor
+-methods
+-inheritance(variables,super,this)
+-operator overloading (+)
+-

@@ -1,0 +1,48 @@
+package collection.src.array_list;
+
+import java.util.Collection;
+import java.util.Comparator;
+import java.util.HashSet;
+import java.util.TreeSet;
+
+public class hashset_heterogen {
+
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+HashSet<Intger> l=new HashSet(new sortin());
+TreeSet<StringBuffer>  ts4=new TreeSet(new sortin());
+l.add(5);l.add(5);l.add(5);
+l.add(15);l.add(53);l.add(5);l.add(53);
+System.out.println(l);
+	}
+
+}
+class me1 implements Comparator
+{
+	public  int compare(Object o1,Object o2) 
+	{
+		String s=(String)o1;
+		String b=(String)o2;
+		return 1;
+		// TODO Auto-generated method stub
+
+	}
+}
+
+class sortin implements Comparator
+{
+	public int compare(Object obj,Object ob2)
+	{
+		//String i1=(String)obj;--shows error
+		//String i2=(String)ob2;--shows error
+		String i1=obj.toString();
+		String i2=ob2.toString();//string have to be type casted by using this 
+		//return 1;	//-insertion order
+		//return 0; -only one object is written other are written
+		//return -1; -reverse order
+		//return i1.compareTo(i2); -ascending order
+		return -i1.compareTo(i2);//for descending order
+	
+		
+	}
+}

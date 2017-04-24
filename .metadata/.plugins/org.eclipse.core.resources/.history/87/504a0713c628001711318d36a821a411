@@ -1,0 +1,26 @@
+package multithreading;
+class an extends Thread
+{
+	public void run()
+	{
+		System.out.println("user defined--1");
+		try
+		{
+			Thread.sleep(2000);
+		}
+		catch(InterruptedException e)
+		{
+		System.out.println("interrupted exeception");
+	}
+	}
+}
+public class interrupt {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+an i=new an();
+i.start();
+i.interrupt();
+	}
+
+}

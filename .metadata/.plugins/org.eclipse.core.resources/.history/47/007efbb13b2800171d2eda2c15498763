@@ -1,0 +1,15 @@
+package multithreading;
+class t1 extends Thread
+{
+	
+}
+public class emptythread {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+t1 t=new t1();
+t.run();
+
+	}
+
+}

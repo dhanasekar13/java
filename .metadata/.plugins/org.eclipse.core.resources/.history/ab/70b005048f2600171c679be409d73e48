@@ -1,0 +1,29 @@
+package collection.src.array_list;
+
+import java.util.Collection;
+import java.util.Comparator;
+import java.util.HashSet;
+
+public class hashset_heterogen {
+
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+HashSet  l=new HashSet(new me1());
+
+l.add(5);l.add(5);l.add(5);
+l.add(15);l.add(53);l.add(5);l.add(53);
+System.out.println(l);
+	}
+
+}
+class me1 implements Comparator
+{
+	public  int compare(Object o1,Object o2) 
+	{
+		String s=(String)o1;
+		String b=(String)o2;
+		return 1;
+		// TODO Auto-generated method stub
+
+	}
+}

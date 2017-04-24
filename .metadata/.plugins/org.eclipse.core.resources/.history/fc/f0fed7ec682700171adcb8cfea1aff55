@@ -1,0 +1,111 @@
+package task1;//AutoCloseable
+import java.security.cert.CollectionCertStoreParameters;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.*;
+class db1 {
+	static TreeSet<Long> phoneno=new TreeSet<>();
+	static LinkedList<String> emailid=new LinkedList();
+	static Vector<String> name=new Vector();
+	static Vector<String> Emailname=new Vector();
+	Scanner na=new Scanner(System.in);
+	db1()
+	{
+		System.out.println("Enter the Phone number-");
+		long mam=na.nextLong();
+			phoneno.add(mam);
+		System.out.println("Enter the name");
+		String str1=na.nextLine();
+		    name.add(str1);
+		System.out.println("Enter the email id--");
+		String str=na.nextLine();
+		    Emailname.add(str);    
+			}
+	db1(int a)
+	{
+		System.out.println(phoneno);
+		System.out.println(name);
+		System.out.println(Emailname);
+	}
+	}
+/*	
+class db2
+{ Scanner na=new Scanner(System.in);
+static Vector name=new Vector();
+	 db2()
+	{
+		
+			LinkedList emailid=new LinkedList();
+			System.out.println("Enter the name");
+			String str1=na.nextLine();
+			name.add(str1);
+		
+		
+     }
+	db2(int a)
+		{
+			System.out.println(name);
+		}
+}
+class db3
+{
+	 Scanner na=new Scanner(System.in);
+	static Vector Emailname=new Vector();
+	 db3()
+	{
+						System.out.println("Enter the email id--");
+			String str=na.nextLine();
+			Emailname.add(str);
+     }
+	 db3(int a)
+		{
+			System.out.println(Emailname);
+		}
+}
+class db4
+{
+	 Scanner na=new Scanner(System.in);
+	static Vector Emailname=new Vector();
+	 db4()
+	{
+						System.out.println("Enter the second name--");
+			String str=na.nextLine();
+			Emailname.add(str);
+     }
+	 db4(int a)
+		{
+			System.out.println(Emailname);
+		}
+}
+class db5
+{
+	 Scanner na=new Scanner(System.in);
+	static Vector Emailname=new Vector();
+	 db5()
+	{
+						System.out.println("Enter the father name--");
+			String str=na.nextLine();
+			Emailname.add(str);
+     }
+	 db5(int a)
+		{
+			System.out.println(Emailname);
+		}
+}
+class db6
+{
+	 Scanner na=new Scanner(System.in);
+	static Vector Emailname=new Vector();
+	 db6()
+	{
+						System.out.println("Enter the mother name--");
+			String str=na.nextLine();
+			Emailname.add(str);
+     }
+	 db6(int a)
+		{
+			System.out.println(Emailname);
+		}
+}*/

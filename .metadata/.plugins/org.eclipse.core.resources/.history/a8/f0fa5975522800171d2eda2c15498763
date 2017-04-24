@@ -1,0 +1,24 @@
+//here we can set the name of thread and get the name of the thread 
+//using set and get method
+
+package multithreading;
+class a extends Thread
+{
+	 public void run()
+	{
+		 
+		System.out.println(" a thread");
+	}
+	/*public String getName() we cannot override the getName method because in thread getname method is set as finall 
+	 {
+		 return "dhanasekar";
+	 }*/
+}
+public class setandgetthread {
+public static void main(String[] args) {
+	a i=new a();
+	i.start();
+	//i.setName("danan");//setting up name of the thread 
+	System.out.println(i.getName());//getting the name of thread
+}
+}

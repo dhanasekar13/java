@@ -1,0 +1,17 @@
+package inner_classes;
+
+public class inner_var_same {
+class a
+{int e=10999;
+	public void af()
+	{int e=50;
+		System.out.println(e);
+	}
+}
+int e=100;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+new inner_var_same().new a().af();
+	}
+
+}

@@ -1,0 +1,21 @@
+package collection.src.array_list;
+import java.util.*;
+
+public class linked_list {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ 		LinkedList<Character>   l=new LinkedList<Character>();
+ 		LinkedList<Character>   l1=new LinkedList<Character>();
+ 		sample e=new sample();
+ 	
+        l.add('e');
+        l1.add('h');
+        l.add(1,'r');
+        l.addFirst('d');
+        l.addLast('w');
+        System.out.println(l);
+        l.addAll(4,l1);
+System.out.println(l);
+}
+}

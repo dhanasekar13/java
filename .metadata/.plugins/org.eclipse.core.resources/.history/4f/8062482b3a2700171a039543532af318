@@ -1,0 +1,28 @@
+// --accessing inner class methods 
+//--- by using outer(sample) object
+package inner_classes;
+
+public class sample // outer class
+{
+	class innerclass//inner class 
+     {
+	
+		public void g()//inner class methods
+		{
+			System.out.println("inner class methods g");
+		}
+		public void c()
+		{
+			System.out.println("second methods in inner class");
+		}
+	}
+public static void main(String argts[])
+{//hre output willl provide 
+	sample s=new sample();
+	sample.innerclass i=s.new innerclass();
+	i.g();//inorder  to access this methods we need outer class object 
+	sample.innerclass j=new sample().new innerclass();
+	i.c();
+}
+}
+

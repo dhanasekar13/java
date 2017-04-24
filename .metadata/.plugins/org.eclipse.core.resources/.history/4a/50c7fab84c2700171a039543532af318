@@ -1,0 +1,47 @@
+//simple example of method local inner class
+//class method_local-for accessing instance methods 
+//class method_local1-for accessing static methods
+
+package inner_classes;
+
+public class method_local {
+
+	public  void m1()
+	{
+		class inner
+		{
+			public void m2()
+			{
+				System.out.println("mehtod local inner class");
+			}			
+		}
+		inner i=new inner();
+		i.m2();
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+new method_local().m1();
+	}
+
+}
+
+class method_local1 {
+
+	public static  void m1()
+	{
+		final int a=5;
+		class inner
+		{
+			public  void m2()
+			{
+				System.out.println(a);
+			}			
+		}
+		inner i=new inner();
+		i.m2();
+	}
+
+	public static void main(String[] args) {
+	method_local1.m1();
+	}
+}

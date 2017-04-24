@@ -1,0 +1,10 @@
+package collection.src.array_list;
+
+public class treeset_userdefined_with_minus_symbol {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,45 @@
+//eg of anonymous inner class whre overriding only one method in parent class
+// anonymous inner class--instance use only one time usage 
+// by this overriding can be done
+package inner_classes;
+class parent 
+{
+	void a()
+	{
+		System.out.println("this is parent class a method");
+	}
+	void b()
+	{
+		System.out.println("This is parent class b method");
+	}
+}
+public class anonymous_inner_class {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		parent i=new parent()
+				{
+			void a()
+			{
+				System.out.println("This is anonymous class first object overridden a methods ");
+				
+			}
+				};
+				System.out.println(i.getClass().getName());
+				i.a();//call first anonymous class 
+				i.b();//call parent class b method
+				parent j=new parent()
+				{
+			void a()
+			{
+				System.out.println("This is anonymous class second  object overridden a methods ");
+			}
+				};
+				System.out.println(j.getClass().getName());
+				j.a();//call second anonymous class
+				parent k=new parent();
+				System.out.println(k.getClass().getName());
+				k.a();//parent class a methods
+	}
+
+}

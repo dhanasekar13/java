@@ -1,0 +1,14 @@
+package collection.src.array_list;
+
+public class hashset_heterogen {
+
+	public hashset_heterogen() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

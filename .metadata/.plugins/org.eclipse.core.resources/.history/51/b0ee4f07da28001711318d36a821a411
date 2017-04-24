@@ -1,0 +1,19 @@
+package multithreading_impelementation_of_runnable_interface;
+class runnable implements Runnable
+{
+	public void run()
+	{
+		System.out.println("user ddefined thread with runnable interface");
+	}
+}
+public class sample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		runnable r=new runnable();
+		
+Thread t=new Thread(r);
+t.start();
+	}
+
+}

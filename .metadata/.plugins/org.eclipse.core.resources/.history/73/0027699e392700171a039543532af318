@@ -1,0 +1,20 @@
+package inner_classes;
+
+public class sample 
+{
+	class a
+     {
+	
+		public void g()
+		{
+			System.out.println("inner class methods g");
+		}
+	}
+public static void main(String argts[])
+{//hre output willl provide 
+	sample s=new sample();
+	sample.a i=s.new a();
+	i.g();
+}
+}
+

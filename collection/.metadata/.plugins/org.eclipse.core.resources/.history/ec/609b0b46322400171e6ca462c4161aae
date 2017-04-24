@@ -1,0 +1,33 @@
+package array_list;
+import java.util.*;
+public class sample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ArrayList<Integer> a=new ArrayList<Integer>(6);
+ArrayList<Integer> b=new ArrayList<Integer>(6);
+a.add(3);
+a.add(6);
+a.add(4);
+a.add(5);
+a.add(4);
+a.add(5);
+
+b.add(554);
+b.add(445);
+b.add(545);
+b.add(343);
+b.add(656);
+b.add(44);
+b.add(545);
+b.add(445);
+b.add(543);
+
+a.add(554);
+a.add(465);
+a.add(543);
+a.addAll(b);
+System.out.println(a);
+	}
+
+}

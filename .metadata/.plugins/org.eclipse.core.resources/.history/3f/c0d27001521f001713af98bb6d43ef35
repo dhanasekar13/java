@@ -1,0 +1,19 @@
+package task;
+
+ class clone2 {
+int a;
+int b;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		clone2 i=new clone2();
+		i.a=2;i.b=4;
+		System.out.println(i.a+" "+i.b);
+		i.a=4;i.b=5;
+		System.out.println(i.a+" "+i.b);
+		clone2 j=(clone2)i.clone();
+		System.out.println(j.a+" "+j.b);
+
+	}
+
+}

@@ -1,0 +1,34 @@
+package array;
+class a
+{
+	int f;
+	String d;
+	a(int f,String d)
+	{
+		this.f=f;
+		this.d=d;
+	
+	}
+}
+class b
+{
+	int a;
+	String ds;
+	b(int a,String ds)
+	{
+		this.a=a;
+		this.ds=ds;
+	
+	}
+}
+public class mult_class {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+                   Object[] o=new Object();
+                   
+		
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+interface abc
+{
+	public void b();
+}
+public class anonymus_interface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+abc i=new abc()
+{
+	public void b()
+	{
+		System.out.println("dhana");
+	}
+};
+for(int ik=0;ik<10;ik++)
+	System.out.println("sekar");
+
+
+	}
+
+}

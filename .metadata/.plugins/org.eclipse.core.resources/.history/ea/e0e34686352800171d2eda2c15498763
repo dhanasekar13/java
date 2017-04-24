@@ -1,0 +1,20 @@
+package multithreading;
+
+class userthread extends Thread
+{
+public void run()
+{
+	System.out.println("dhanasekar");
+	
+}
+}
+public class multithread
+{
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	userthread  t=new userthread ();
+		t.start();
+		
+	}
+
+}

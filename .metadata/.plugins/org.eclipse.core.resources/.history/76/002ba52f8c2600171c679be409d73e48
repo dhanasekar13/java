@@ -1,0 +1,22 @@
+package collection.src.array_list;
+
+import java.util.Comparator;
+import java.util.TreeSet;
+
+public class treeset_hetrogeneous {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+TreeSet i=new TreeSet(new mysort());
+i.add(5);
+	}
+}
+class mysort implements Comparator
+{
+	public int  compare(Object o1,Object o2)
+	{ 
+		String s1=o1.toString();
+		String s2=o1.toString();
+		return 0;
+	}
+	}

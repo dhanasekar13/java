@@ -1,0 +1,15 @@
+package multithreading;
+class a extends Thread
+{
+	 public void run()
+	{
+		System.out.println(" a thread");
+	}
+}
+public class setandgetthread {
+public static void main(String[] args) {
+	a i=new a();
+	i.start();
+	System.out.println(i.getName());
+}
+}

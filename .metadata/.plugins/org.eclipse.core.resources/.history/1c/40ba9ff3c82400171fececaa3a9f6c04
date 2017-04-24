@@ -1,0 +1,59 @@
+package task;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class duplicate1 {
+
+	public static void main(String[] args) throws Exception{
+		
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter the string ");
+		String r=s.nextLine();
+		int hi=0;
+		int ci=r.length();
+		char[] d=new char[ci];
+		char[] du=new char[ci];
+		char[] dq=new char[ci];
+		int[] f=new int[ci];
+		ArrayList<Character> er=new ArrayList<Character>(ci);
+		ArrayList<Character> eri=new ArrayList<Character>(ci);
+		int g=0;
+		    for (int i=0;i<ci;i++)
+		{
+			d[i]=r.charAt(i);
+			er.add(d[i]);
+		
+		}du[0]=d[0];eri.add(du[0]);
+		System.out.println(eri);
+		for(int j=0;j<ci;j++)
+		{
+		if(du[0]==d[j])
+		{
+			hi++;
+		}
+		}  System.out.println("string element "+du[0]+"  has "+hi+"  of repeating element  ");
+		er.remove(er.get(du[0]));
+		System.out.println(er);
+	/*	hi=0;int u=0;
+		    	 
+		for(int i=1;i<ci-1;i++)
+		{
+			for(int j=i;j<ci-1;j++)
+		{char x=er.get(i);eri.add(x);
+		if(er.get[j]!=null){
+		char y=er.get(j);
+			if(x==y)
+			{
+				hi++;
+				
+			}}
+		}if(er!=null){
+			System.out.println("string element "+er.get(i)+"  has "+hi+"  of repeating element  ");}
+		else
+		{		}
+			hi=0;eri.clear();
+		}
+	}*/
+}
+}
