@@ -1,5 +1,4 @@
 package task1;
-
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
@@ -22,34 +21,24 @@ public class fronts1 {
 				switch (a) {
 				case 1:
 					new db1();
-					new db2();
-					new db3();
-					new db4();
-					new db5();
-					new db6();
-					// new db3(10);
 					break;
 				case 2:
-					new db2("s");
+					new db1("s");
 					break;
 				case 3:
 					new db1(0, 0, 0);
-					new db2(0, 0, 0);
-					new db3(0, 0, 0);
-					new db4(0, 0, 0);
-					new db5(0, 0, 0);
-					new db6(0, 0, 0);
+					
 
 					break;
 				case 4:
-					new db1(0, 0, 0);
+					new db1(0,0);
 					break;
 				case 5:
 					break;
 				default:
 					System.out.println("wrong operation ");
 				}
-			} while (a < 4);
+			} while (a < 6);
 
 		} catch (Exception e) {
 			e.printStackTrace();

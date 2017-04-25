@@ -40,7 +40,7 @@ os.writeObject(i);
 
 FileInputStream fi=new   FileInputStream("C:/Users/User/Desktop/New folder (2)/abc.txt");
 ObjectInputStream is=new ObjectInputStream(fi);
-b j=(b)is.readObject();
+a j=(a)is.readObject();
 System.out.println(j);
 	}
 

@@ -1,0 +1,34 @@
+package collection.src.array_list;
+
+import java.util.TreeSet;
+
+class full
+{
+	int id;
+	String name;
+	full(int id,String name)
+	{
+		this.id=id;
+		this.name=name;
+	}
+}
+public class TreesetSorted {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+full i=new full(1,"dhana");
+full j=new full(2,"sekar");
+full k=new full(3,"dhanasekar");
+full l=new full(4,"dsekar");
+full m=new full(5,"sekarda");
+TreeSet t=new TreeSet<>();
+t.add(i);
+t.add(j);
+t.add(k);
+t.add(l);
+t.add(m);
+System.out.println();
+
+	}
+
+}

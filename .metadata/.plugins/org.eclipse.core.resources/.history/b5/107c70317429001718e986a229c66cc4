@@ -1,0 +1,16 @@
+package inner_classes;
+
+public class nested_static {
+static class a
+{
+	public static void main(String[] args) {
+		System.out.println("Nested static class");
+	}
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("main method");
+
+	}
+
+}

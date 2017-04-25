@@ -6,22 +6,25 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="" key="selection"/>
+		<item value="BufferedReader na = new BufferedReader(new InputStreamReader(System.in));" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="Scanner "/>
+			<item value="Scanner na=new Scanner(System.in);"/>
+			<item value="Scanner"/>
+			<item value="Thread()"/>
+			<item value="thread"/>
+			<item value="hi 0"/>
+			<item value="a "/>
 			<item value="AutoCloseable"/>
-			<item value="close"/>
-			<item value="tost"/>
-			<item value="compareto"/>
-			<item value="compare"/>
-			<item value="compare\"/>
-			<item value="tostring"/>
-			<item value="sort"/>
 		</list>
 		<list key="replacehistory">
+			<item value="BufferedReader na = new BufferedReader(new InputStreamReader(System.in));"/>
+			<item value="BufferedReader"/>
+			<item value="f"/>
 			<item value="s.a."/>
 			<item value="sa."/>
 		</list>

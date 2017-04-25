@@ -1,0 +1,63 @@
+//output will be unexcepted behaviour 
+//cannot predicate the output because of thread scheduler
+//
+
+package multithreading_impelementation_of_runnable_interface;
+class ag
+{
+	static void e(String s)
+	{for(int y=0;y<10;y++)
+	{
+		System.out.println("thread called by "+s);
+		try
+		{
+					Thread.sleep(5000);
+		}
+		catch(InterruptedException u)
+		{
+			System.out.println("error");
+		}
+	}
+	}
+}
+public class synchronized_thread  extends Thread
+{ public void run()
+	{
+	ag.e("synchronized");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		th1 i=new th1();
+		th2 j=new th2();
+		synchronized_thread  k=new synchronized_thread();
+		i.start();
+		j.start();
+		k.start();
+		
+
+	}
+
+}
+class th1 extends Thread
+{
+	public void run()
+	{
+		ag.e("th1");
+		for(int y=0;y<10;y++)
+		{
+			System.out.println("thread th1");
+		}
+	}
+}
+class th2 extends Thread
+{
+	public void run()
+	{
+		ag.e("th2");
+		for(int y=0;y<10;y++)
+		{
+			System.out.println("thread th1");
+		}
+	}
+}

@@ -1,0 +1,10 @@
+package multithreading_impelementation_of_runnable_interface;
+
+public class synchronized_thread {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

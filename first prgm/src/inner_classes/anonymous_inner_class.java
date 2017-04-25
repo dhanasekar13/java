@@ -38,7 +38,7 @@ public class anonymous_inner_class {
 				System.out.println("This is anonymous class second  object overridden a methods ");
 			}
 				};
-				System.out.println("Shows which class and name of the object it is created\n"+j.getClass().getName());
+				System.out.println("Shows which class and name of the object it is cresated\n"+j.getClass().getName());
 				j.a();//call second anonymous class
 				parent k=new b();// this is child object parent reference .
 				System.out.println("Shows which class and name of the object it is created\n"+k.getClass().getName());
