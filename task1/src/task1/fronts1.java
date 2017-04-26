@@ -13,12 +13,18 @@ public class fronts1 {
 		int i = 0, a;
 		try {
 			do {
-				System.out.println("what operation do you want to perform");
+				System.
+				out
+				.
+				println("what operation do you want to perform");
 
-				System.out.println("1.create 2.view 3.dispay all detail 4.want to view previous record stored 5.exit");
+				System.out.println("1.create 2.view 3.dispay all detail\n "
+						+ ""
+						+ "4.want to view previous record stored 5.exit");
 				a = si.nextInt();
 				int b;
-				switch (a) {
+				switch (a) 
+				{
 				case 1:
 					new db1();
 					break;
@@ -27,8 +33,6 @@ public class fronts1 {
 					break;
 				case 3:
 					new db1(0, 0, 0);
-					
-
 					break;
 				case 4:
 					new db1(0,0);
@@ -38,7 +42,7 @@ public class fronts1 {
 				default:
 					System.out.println("wrong operation ");
 				}
-			} while (a < 6);
+			} while (a < 5);
 
 		} catch (Exception e) {
 			e.printStackTrace();

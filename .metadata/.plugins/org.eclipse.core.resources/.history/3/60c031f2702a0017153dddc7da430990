@@ -1,0 +1,52 @@
+package task1withmap;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.util.Scanner;
+
+public class front {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BufferedReader si = new BufferedReader(System.in);
+		int i = 0, a;
+		try {
+			do {
+				System.out.println("what operation do you want to perform");
+
+				System.out.println("1.create " + "2.view "+"3.update" +"4.dispay all detail\n " + ""
+						+ "5.want to view previous record stored 5.exit");
+				a = si.nextInt();
+				int b;
+				switch (a) {
+				case 1:
+					new createnew().new1();
+					break;
+				case 2:
+					
+					break;
+				case 3:
+					
+					break;
+				case 4:
+					System.out.println("Enter the phone no.. to view ");
+					String s=si.nextLine();
+					new createnew().b(s);
+					break;
+				case 5:
+					break;
+				default:
+					System.out.println("wrong operation ");
+				}
+			} while (a < 5);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println();
+		}
+	}
+}
+

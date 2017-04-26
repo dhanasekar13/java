@@ -1,0 +1,23 @@
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.SortedSet;
+
+import javax.swing.text.html.HTMLDocument.Iterator;
+
+public class sample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ArrayList i=new ArrayList<Integer>();
+i.add(4);
+i.add("5");
+SortedSet<Integer> e=new SortedSet() ;
+
+long a=23;
+String saq="2333";
+int we=Integer.parseInt(saq);
+	}
+
+}

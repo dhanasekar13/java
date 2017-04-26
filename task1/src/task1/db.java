@@ -1,5 +1,6 @@
 package task1;//AutoCloseable
 
+import java.beans.Transient;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -18,8 +19,9 @@ import java.util.Scanner;
 
 import java.util.*;
 
-class db1 {
-
+class db1
+{
+	transient int a=9;//we cant serialize.
 	static ArrayList<String> phoneno = new ArrayList<>();
 	static ArrayList<String> name = new ArrayList<>();
 	static ArrayList<String> Emailname = new ArrayList<>();
@@ -27,7 +29,6 @@ class db1 {
 	static ArrayList<String> dob = new ArrayList<>();
 
 	BufferedReader na = new BufferedReader(new InputStreamReader(System.in));
-
 	db1() throws IOException {
 		System.out.println("Enter the Phone number-");
 		String mam = na.readLine();
@@ -124,27 +125,20 @@ class db1 {
 	}
 
 	db1(String a) throws IOException {
-		System.out.println("Enter whose detail to view");
-		BufferedReader na = new BufferedReader(new InputStreamReader(System.in));// na
-																					// =
-																					// new
-																					// Scanner(System.in);
-
+		System.out.println("Enter whose(name) detail to view");
+		BufferedReader na = new BufferedReader(new InputStreamReader(System.in));
 		String str = na.readLine();
-
 		int v = name.indexOf(str);
 		new db1(v);
 
 	}
 
 	db1(int a) {
-
 		System.out.println(phoneno.get(a));
 		System.out.println(name.get(a));
 		System.out.println(Emailname.get(a));
 		System.out.println(Address.get(a));
 		System.out.println(dob.get(a));
-
 	}
 
 	db1(int a, String b) throws IOException {
@@ -157,7 +151,7 @@ class db1 {
 
 	db1(int a, int b, int c) throws IOException, Exception {
 		// ArrayList l = new ArrayList<>();
-		System.out.println(name);
+		System.out.println("names-"+name);
 		System.out.println(Emailname);
 		System.out.println(phoneno);
 		System.out.println(Address);
