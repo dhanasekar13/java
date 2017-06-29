@@ -1,31 +1,33 @@
 package exception_handing;
 
 public class throw_except {
-	public static void hi()
-	{
+	public static void hi() throws Exception {
 
-	try
-	{
-		throw new ArithmeticException("my throw");
+		try {
+			throw new dhanasekarException("hdi");
+		} catch (ArithmeticException i) {
+			System.out.println("first thread");
+			throw i;
+		}
 	}
-	catch (ArithmeticException i)
-	{
-		System.out.println("first thread");
-		throw i;
-	}
-	}
-	public static void main(String[] args) {
 
-		// TODO Auto-generated method stub		
-try
-{
-	hi();
-}
-catch (Exception i)
-{
-	System.out.println("second throw"+i);
+	public static void main(String[] args) throws Exception {
+
+		// TODO Auto-generated method stub
+		
+			hi();
+		
+
+	}
+
 }
 
+class dhanasekarException extends Exception {
+	dhanasekarException() {
+		System.out.println("this is zero argument constructor");
 	}
 
+	dhanasekarException(String s) {
+		System.out.println("this is one argument constructor");
+	}
 }

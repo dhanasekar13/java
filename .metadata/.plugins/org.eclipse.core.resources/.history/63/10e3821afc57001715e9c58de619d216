@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+
+public class unsupp {
+	unsupp()
+	{
+		this(10);
+		
+	}
+	unsupp(int i)
+	{	super();
+		System.out.println(i);
+		
+	}
+	unsupp(String h)
+	{
+		System.out.println(h);
+	}
+public static void main(String[] args) {
+
+}
+}

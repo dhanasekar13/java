@@ -1,0 +1,3 @@
+# Module s2
+# RPC service class, partial path of RPC policy file
+serv2.client.GreetingService, 99BA2E163E8B26ADA1FB1319EBDABE19.gwt.rpc

@@ -18,6 +18,7 @@
 			// TODO Auto-generated method stub
 	TreeSet s=new TreeSet();//while creating the class have to mention the object which implements Comparator
 	TreeSet rs=new TreeSet(new minus1());
+	//s.add(null);
 	s.add("dhana");
 	s.add("sekar");
 	s.add("ds");

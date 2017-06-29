@@ -5,8 +5,8 @@ public class linked_list {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
- 		LinkedList<Character>   l=new LinkedList<Character>();
- 		LinkedList<Character>   l1=new LinkedList<Character>();
+		final LinkedList<Character>   l=new LinkedList<Character>();
+ 		final LinkedList<Character>   l1=new LinkedList<Character>();
  		sample e=new sample();
  	
         l.add('e');
@@ -15,6 +15,7 @@ public class linked_list {
         l.addFirst('d');//directly add at first 
         l.addLast('w');//directly add the elemnt at last
         l.add('e');//duplicates are allowed 
+      l.set(1, 's');
         System.out.println(l.size());
         l.addAll(4,l1);
         //l.addLast(e);

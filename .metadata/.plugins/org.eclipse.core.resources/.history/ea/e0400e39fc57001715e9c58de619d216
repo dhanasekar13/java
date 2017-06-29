@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+
+public class unsupp {
+	unsupp()
+	{
+		this(10);
+		System.out.println("this is the first constructor");
+		
+	}
+	unsupp(int i)
+	{	super();
+		System.out.println("this is the one argument constructor");
+		
+	}
+	unsupp(String h)
+	{
+		System.out.println(h);
+	}
+	{
+		System.out.println("this is an instance block");
+	}
+public static void main(String[] args) {
+unsupp a=new unsupp();
+}
+}

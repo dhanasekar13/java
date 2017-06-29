@@ -1,0 +1,48 @@
+package task;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.LinkedHashSet;
+import java.util.Scanner;
+
+public class remove_duplicate_element_in_String {
+	static void set() {
+		String a = "dhanasekard", b="";
+		LinkedHashSet<Character> h = new LinkedHashSet<Character>();h.clear();
+		for (int i = 0; i < a.length(); i++) {
+			h.add(a.charAt(i));
+		}
+
+		ArrayList<Character> hi=new ArrayList<Character>(h);
+		hi.clear();
+		hi.addAll(h);
+		for (int j = 0; j < hi.size(); j++)
+		{
+				b=b+hi.get(j);
+		}
+		System.out.println(b);
+	}
+	
+	
+	public static void main(String[] args) throws IOException {
+	//	set();
+		Scanner s=new Scanner(System.in);
+			ArrayList<ArrayList> a3=new ArrayList<ArrayList>();
+		System.out.println("how many data are you need to enter into the array list 1");
+		int q=s.nextInt();
+		
+		for(int i=0;i<=q;i++)
+		{
+			ArrayList<String> list=new ArrayList<String>();
+			System.out.println("enter the name");
+			String q1=s.next();
+			list.add(q1);
+			System.out.println("enter the id");
+			String q2=s.next();
+			list.add(q2);
+			a3.add(list);
+		}
+		}
+	}

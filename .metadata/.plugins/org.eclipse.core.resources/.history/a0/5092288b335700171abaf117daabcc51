@@ -1,0 +1,50 @@
+package task;
+
+import java.util.ArrayList;
+import java.util.LinkedHashSet;
+import java.util.Scanner;
+
+public class remove_duplicate_element_in_String {
+	static void set() {
+		String a = "dhanasekard", b="";
+		LinkedHashSet<Character> h = new LinkedHashSet<Character>();h.clear();
+		for (int i = 0; i < a.length(); i++) {
+			h.add(a.charAt(i));
+		}
+
+		ArrayList<Character> hi=new ArrayList<Character>(h);
+		hi.clear();
+		hi.addAll(h);
+		for (int j = 0; j < hi.size(); j++)
+		{
+				b=b+hi.get(j);
+		}
+		System.out.println(b);
+	}
+	
+	
+	public static void main(String[] args) {
+	//	set();
+		Scanner s=new Scanner(System.in);
+		ArrayList<String> a1=new ArrayList<String>();
+		ArrayList<String> a2=new ArrayList<String>();
+		ArrayList<ArrayList> a3=new ArrayList<ArrayList>();
+		System.out.println("how many data are you need to enter into the array list 1");
+		int q=s.nextInt();
+		System.out.println("enter the value for arraylist a1");
+		for(int i=0;i<=q;i++)
+		{
+		a1.add(s.nextLine());
+		}
+		System.out.println("how many data are you need to enter into the array list 2");
+		int q1=s.nextInt();
+		System.out.println("enter the value for arraylist a2");
+		for(int j=0;j<=q1;j++)
+		{
+		a2.add(s.nextLine());
+		}
+		a3.add(a1);
+		a3.add(a2);
+		System.out.println(a3);
+		}
+	}

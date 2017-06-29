@@ -127,7 +127,7 @@ class db1
 	db1(String a) throws IOException {
 		System.out.println("Enter whose(name) detail to view");
 		BufferedReader na = new BufferedReader(new InputStreamReader(System.in));
-		String str = na.readLine();
+		String str = na.readLine();na.re
 		int v = name.indexOf(str);
 		new db1(v);
 

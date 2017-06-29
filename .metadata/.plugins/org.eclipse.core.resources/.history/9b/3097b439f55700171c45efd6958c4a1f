@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+
+public class unsupp {
+	unsupp()
+	{
+		this(10);
+		this("s");
+	}
+	unsupp(int i)
+	{
+		System.out.println(i);
+	}
+	unsupp(String h)
+	{
+		System.out.println(h);
+	}
+public static void main(String[] args) {
+
+}
+}

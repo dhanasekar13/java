@@ -1,0 +1,11 @@
+package task;
+
+public class remove_duplicate_element_in_String {
+	public static void main(String[] args) {
+		String a="dhanasekard",b="dhanasekard";char[] c ;
+		int h=0;
+		a=a+b;
+		System.out.println(a);
+	}
+
+}

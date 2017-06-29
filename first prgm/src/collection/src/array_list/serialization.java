@@ -34,7 +34,7 @@ public class serialization
 	{
 		// TODO Auto-generated method stub
 a  i=new a();
-FileOutputStream fo=new FileOutputStream("abs.ser");
+FileOutputStream fo=new FileOutputStream("C:/Users/User/Desktop/New folder (2)/abc.txt");
 ObjectOutputStream os=new ObjectOutputStream(fo);
 os.writeObject(i);
 

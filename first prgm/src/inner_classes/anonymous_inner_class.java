@@ -21,7 +21,7 @@ public class anonymous_inner_class {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		parent i=new parent()//anonymous_inner_class$1
+	parent i=new parent()//anonymous_inner_class$1
 				{
 					void a()//has override the parent class void a()
 					{

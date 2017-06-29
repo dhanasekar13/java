@@ -50,11 +50,12 @@ public class front {
 					
 					break;
 				case 5:
+					new createnew().c23();
 					break;
 				default:
 					System.out.println("wrong operation ");
 				}
-			} while (a < 5);
+			} while (a < 6);
 
 		} catch (Exception e) {
 			e.printStackTrace();

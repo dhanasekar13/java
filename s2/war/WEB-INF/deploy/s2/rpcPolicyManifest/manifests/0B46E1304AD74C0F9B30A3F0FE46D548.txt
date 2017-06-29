@@ -1,0 +1,2 @@
+serviceClass: serv2.client.GreetingService
+path: 99BA2E163E8B26ADA1FB1319EBDABE19.gwt.rpc

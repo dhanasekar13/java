@@ -5,14 +5,14 @@ Environment path variable!
 - Local variables & pass by value
 !
 - Unary operators.
-
+(++)!
 - Basics on methods in Java.!
 
 - Static variable Management(Forward Reference Issue).
 
-- Memory Management
+- Memory Management!
 - Heap/Stack.
-
+!
 - Static Initialization Block (SIB).!
 
 - Using Static memebers in different classes!
@@ -29,12 +29,12 @@ SIB and IIB.
 - Inheritance. !
 
 - Constructor Chain.
-
+!
 - Analyzing Constructor chain,SIB,IIB in the hierarchical classes.
 
 - Packages.
 
-- Access Levels.
+- Access Levels.!
 
 - Abstract classes.
 !
@@ -42,29 +42,28 @@ SIB and IIB.
 !
 - Difference between constructors and methods.
 !
-- Auto widening, 
-Explict narrowing.
-
+- Auto widening,! 
+Explict narrowing.!
 -Auto up casting and Explict down Casting.
-
+(int to string,,,,int i=(Integer).parseint(String s))
 -Polymorphism. 
 !
 - Final keyword.
 !
 -Creating jar file.
-
+!
 - classpath.
 -! 
 javap, !
 javadoc.!
-- Enums.
+- Enums!.
 
 - Static Imports
-
+!(can access any value are method directly no need to create object)
 - Inner classes 
-
+!
 - Annotations
-
+!
 - ANT 
 
 - Basic of Eclispe
@@ -73,14 +72,14 @@ javadoc.!
 - Wrapper classes
 !
 - Auto Boxing
-
+!
 - var args
 
-- Combinations of widening, 
+- Combinations of widening, !
 Boxing var args
 
 - Command Line Arguments
-
+!
 - Scanner class
 
 - Exception Handling
@@ -89,11 +88,11 @@ Boxing var args
 
 
 - Threads:
-  
+  !
 - Threads Basics
-  
+!  
 - Synchronizations
-  
+  !
 - Dead lock 
 
 - Inter Thread Communication 
@@ -105,8 +104,7 @@ Boxing var args
   - Thread Local
   
 - Thread Lifecycle
-
-
+ !
 - Object Class:
   
 - toString method
@@ -114,7 +112,7 @@ Boxing var args
 - equals method
   !
 - hashcode method
-  
+  !
 - clone method 
 
   - shallow/deep copy 
@@ -140,37 +138,36 @@ Locale
 
 
 - Arrays:
-  
+  !
 - One Dimensional Arrays
-  
+  !
 - Multi Dimensional Arrays
-  
+  !
 - Java.util.Arrays
   
 - Comparable
-  
+  !
 - Comparator
 
-
+!
 - Collection API:
   
 - Collection diagram
-  
+ ! 
 - List Stream 
 
-  - Developing Our own ArrayList 
-
+  - Developing Our own ArrayList !
   - Developing LinkedList(Single,Double,circular)
-  
+  !
 - Developing stack & queue
   
 - Collections class
-  
+  !
 - Set Stream
   
 - Set uniqueness
   
-- TreeSet, 
+- TreeSet, !
 NavigableSet
   
 - Queue Stream
@@ -182,7 +179,7 @@ NavigableSet
 - Uniqueness in Map 
 
   - HashMap & HashTable
-  
+  !
 - Developing oru own ThreadLocale
   
 - TreeMap & NavigableMap 
@@ -200,8 +197,8 @@ NavigableSet
 - Streams
   
 - Serialization
-  
-- Externalization 
+  !
+- Externalization !
   
 - Java.io.console
   
@@ -210,4 +207,4 @@ NavigableSet
 
 
 
- 
+ !

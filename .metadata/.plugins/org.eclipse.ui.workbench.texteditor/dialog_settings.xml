@@ -6,12 +6,13 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="compare" key="selection"/>
+		<item value="SendMailBySite" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="SendMailBySite"/>
 			<item value="compare"/>
 			<item value="compareTo"/>
 			<item value="comparable"/>
@@ -19,7 +20,6 @@
 			<item value="equals"/>
 			<item value="comaparable"/>
 			<item value="compareto"/>
-			<item value="contact detail1"/>
 		</list>
 		<list key="replacehistory">
 			<item value="s1"/>

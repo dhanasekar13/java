@@ -1,0 +1,28 @@
+package task;
+
+public class remove_duplicate_element_in_String {
+	public static void main(String[] args) {
+		String a="dhanasekard",b="dhanasekard";char[] c = null;
+		int h=0;
+		for(int i=0;i<a.length();i++)
+		{int k=0;
+			for(int j=0;j<a.length();j++)
+			{
+				if(i!=j)
+				{
+			if(a.charAt(i)==b.charAt(j))
+			{
+			k=1;
+			}
+				}
+			}
+		if(k==0)
+		{
+			char g=a.charAt(i);
+			c[h]=g;
+			h++;
+		}
+		}
+	}
+
+}

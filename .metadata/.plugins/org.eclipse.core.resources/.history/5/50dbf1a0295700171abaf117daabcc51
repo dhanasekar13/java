@@ -1,0 +1,20 @@
+package task;
+
+import java.util.ArrayList;
+import java.util.LinkedHashSet;
+
+public class remove_duplicate_element_in_String {
+	public static void main(String[] args) {
+		String a = "dhanasekard", b="";
+		LinkedHashSet<Character> h = new LinkedHashSet<Character>();
+		for (int i = 0; i < a.length(); i++) {
+			h.add(a.charAt(i));
+		}
+		ArrayList<Character> hi=new ArrayList<Character>(h);hi.addAll(h);
+		for (int j = 0; j < h.size(); j++)
+		{
+				b=b+hi.get(j);
+		}
+		System.out.println(b);
+	}
+}

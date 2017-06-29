@@ -4,15 +4,13 @@
 //
 package exception_handing;
 
-public class simple_throw
-{
+public class simple_throw {
 
-	public static void main(String[] args) throws Exception
-	{
-		
+	public static void main(String[] args) throws Exception {
+
 		// TODO Auto-generated method stub
 
-throw new UserD("dhnss");
+		throw new UserD("dhnss");
 	}
 
 }
